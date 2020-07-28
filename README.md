@@ -2,8 +2,9 @@
 
 
 ## :books: Libraries
-:nail_care:[Styled components](https://styled-components.com/)
-[React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [Styled components](https://styled-components.com/) :nail_care:
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [React Slick](https://react-slick.neostack.com/)
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
