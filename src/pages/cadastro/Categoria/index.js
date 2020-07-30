@@ -54,21 +54,9 @@ function CadastroCategoria() {
                     onChange={handleChange}
                 />
 
-                {/* <div>
-                    <label>
-                        Descrição da Categoria:
-                    <textarea
-                            type="text"
-                            name="descrição"
-                            value={values.descricao}
-                            onChange={handleChange}
-                        />
-                    </label>
-                </div> */}
-
                 <FormField
-                    label="Descrição:"
-                    type="????"
+                    label="Descrição"
+                    type="textarea"
                     name="descricao"
                     value={values.descricao}
                     onChange={handleChange}
