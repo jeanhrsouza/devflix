@@ -1,10 +1,14 @@
 
 
 
-## :books: Libraries
+## :books: Dependencies
 - [Styled components](https://styled-components.com/) :nail_care:
 - [React Router Dom](https://reactrouter.com/web/guides/quick-start)
 - [React Slick](https://react-slick.neostack.com/)
+- [ESLint](https://eslint.org/)
+- [prototype](https://www.npmjs.com/package/react-prototype)
+- [JSON Server](https://github.com/typicode/json-server)
+- [Concurrently (--save-dev)](https://www.npmjs.com/package/concurrently)
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

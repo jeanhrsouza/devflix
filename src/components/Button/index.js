@@ -1,9 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Button = styled.button`
 
     color: #f8f8f2;
     border: 1px solid #f8f8f2;
+    background: #6272a4;
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
