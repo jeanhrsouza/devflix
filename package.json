@@ -15,7 +15,6 @@
     "react-slick": "^0.27.1",
     "styled-components": "^5.1.1"
   },
-  
   "scripts": {
     "dev": "concurrently \"react-scripts start\" \"yarn server\"",
     "server": "node ./server.js",
