@@ -1,27 +1,25 @@
 import React from 'react';
-import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import Main from './styles';
 import Menu from '../Menu';
 import Footer from '../Footer';
 
-const Main = styled.main`
-    background-color: #44475a;
-    color: #f8f8f2;
-    flex: 1;
-    padding-top: 50px;
-    padding-left: 5%;
-    padding-right: 5%;
-`;
+const PageDefault = ({ children, paddingAll }) => (
+  <>
+    <Menu />
+    <Main paddingAll={paddingAll}>{children}</Main>
+    <Footer />
+  </>
+);
 
-function PageDefault({ children }) {
-  return (
-    <>
-      <Menu />
-      <Main>
-        {children}
-      </Main>
-      <Footer />
-    </>
-  );
-}
+const ChildElement = PropTypes.oneOfType([PropTypes.element, PropTypes.bool, PropTypes.string]);
+PageDefault.defaultProps = {
+  paddingAll: undefined,
+};
+
+PageDefault.propTypes = {
+  children: PropTypes.oneOfType([ChildElement, PropTypes.arrayOf(ChildElement)]).isRequired,
+  paddingAll: PropTypes.number,
+};
 
 export default PageDefault;
